@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Trevor" max_length="40" name="x_58872_needit_trevor" type="collection">
+        <element choice="3" label="Weather" max_length="50" name="weather" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rainy" value="Rainy"/>
+                <element inactive_on_update="false" label="Snowy" value="Snowy"/>
+                <element inactive_on_update="false" label="Sunny" value="Sunny"/>
+            </choice>
+        </element>
+    </element>
+</database>
